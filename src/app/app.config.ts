@@ -8,8 +8,8 @@
  * from the node.
  */
 export const CoinIdentifiers = {
-  fullName: 'Skycoin',
-  coinName: 'SKY',
+  fullName: 'Privateness',
+  coinName: 'NESS',
   HoursName: 'Coin Hours',
   HoursNameSingular: 'Coin Hour',
 };
@@ -22,7 +22,7 @@ export const QrConfig = {
    * Prefix that will be added to the addresses in the QR codes, to identify what coin the address
    * is for. Corresponds to the BIP-21 specification.
    */
-  prefix: 'skycoin:',
+  prefix: 'privateness:',
 };
 
 /**
@@ -31,7 +31,7 @@ export const QrConfig = {
 export const HeaderConfig = {
   // Set to true for using the generic header, instead of the Skycoin one.
   useGenericHeader: false,
-  genericHeaderUrl: 'https://www.skycoin.net/',
+  genericHeaderUrl: 'https://privateness.network/',
 };
 
 /**
@@ -39,7 +39,7 @@ export const HeaderConfig = {
  */
 export const FooterConfig = {
   // Set to true for using the generic footer, instead of the Skycoin one.
-  useGenericFooter: false,
+  useGenericFooter: true,
   contactLinks: [
     {
       url: 'https://www.skycoin.net/',
