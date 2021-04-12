@@ -30,7 +30,7 @@ export const QrConfig = {
  */
 export const HeaderConfig = {
   // Set to true for using the generic header, instead of the Skycoin one.
-  useGenericHeader: false,
+  useGenericHeader: true,
   genericHeaderUrl: 'https://privateness.network/',
 };
 
@@ -42,25 +42,25 @@ export const FooterConfig = {
   useGenericFooter: true,
   contactLinks: [
     {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-github"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-telegram"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-twitter"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-youtube"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-discord"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-instagram"></i>',
     } , {
-      url: 'https://www.skycoin.net/',
+      url: 'https://privateness.network/',
       content: '<i class="fab fa-reddit"></i>',
     }
   ],
