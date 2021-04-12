@@ -2,7 +2,7 @@
 
 # Skycoin Explorer
 
-[![Build Status](https://travis-ci.com/skycoin/skycoin-explorer.svg?branch=develop)](https://travis-ci.com/skycoin/skycoin-explorer)
+[![Build Status](https://travis-ci.com/ness-network/skycoin-explorer.svg?branch=develop)](https://travis-ci.com/ness-network/skycoin-explorer)
 
 https://explorer.skycoin.net
 

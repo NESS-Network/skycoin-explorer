@@ -1,4 +1,4 @@
-# `skycoin/skycoin-explorer:develop`
+# `ness-network/skycoin-explorer:develop`
 
 ## Docker Metadata
 - Image ID: `sha256:1842fdf29e12b7395c2340c5a7115fd578302cca2d523422c5fcae751d397f83`

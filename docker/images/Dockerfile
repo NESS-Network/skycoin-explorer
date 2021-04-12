@@ -5,10 +5,10 @@ FROM golang:1.10.2-stretch AS build
 RUN mkdir -p $GOPATH/src/github.com/skycoin/
 
 # copy code to build
-ADD . $GOPATH/src/github.com/skycoin/skycoin-explorer
+ADD . $GOPATH/src/github.com/ness-network/skycoin-explorer
 
 # install skycoin-explorer
-RUN cd $GOPATH/src/github.com/skycoin/skycoin-explorer && \
+RUN cd $GOPATH/src/github.com/ness-network/skycoin-explorer && \
   CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /go/bin/skycoin-explorer .
 
 # change to bash to be able to use `source` command
@@ -19,7 +19,7 @@ RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.s
 	source /root/.profile && \
 	nvm install 8.9 && \
 	nvm use 8.9 && \
-	cd $GOPATH/src/github.com/skycoin/skycoin-explorer && \
+	cd $GOPATH/src/github.com/ness-network/skycoin-explorer && \
 	npm install webpack @angular-devkit/build-optimizer && \
 	npm install && \
 	npm run build
@@ -31,7 +31,7 @@ FROM busybox:latest
 COPY --from=build /go/bin/* /usr/bin/
 
 # copy assets
-COPY --from=build /go/src/github.com/skycoin/skycoin-explorer/dist ./dist
+COPY --from=build /go/src/github.com/ness-network/skycoin-explorer/dist ./dist
 
 ENV EXPLORER_HOST="0.0.0.0:8001" \
     SKYCOIN_ADDRESS="http://127.0.0.1:6420"

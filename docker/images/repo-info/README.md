@@ -1,6 +1,6 @@
 # `skycoin-explorer` repo-info
 
-This directory contains additional information about the published artifacts of [the `skycoin-explorer` official image](https://hub.docker.com/r/skycoin/skycoin-explorer/).
+This directory contains additional information about the published artifacts of [the `skycoin-explorer` official image](https://hub.docker.com/r/ness-network/skycoin-explorer/).
 
 - [the `remote` directory](remote/):
 

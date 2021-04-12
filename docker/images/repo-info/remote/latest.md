@@ -1,7 +1,7 @@
-## `skycoin/skycoin-explorer:latest
+## `ness-network/skycoin-explorer:latest
 
 ```console
-$ docker pull skycoin/skycoin-explorer@sha256:26b408ba08b59aebde1e7ad800e080b2b3c825b75cf8cb316c283665125f7678
+$ docker pull ness-network/skycoin-explorer@sha256:26b408ba08b59aebde1e7ad800e080b2b3c825b75cf8cb316c283665125f7678
 ```
 
 - Manifest MIME: `application/vnd.docker.distribution.manifest.list.v2+json`
