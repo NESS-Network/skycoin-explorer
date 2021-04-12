@@ -1243,7 +1243,7 @@ code.inline { border-radius: 3px; padding: 0.2em; background-color: #F7FAFB; fon
 <p>All endpoints start with /api</p>
 <p>Further information about an endpoint can be found at the Skycoin repo.</p>
 <p>Skycoin Github:<a href="https://github.com/skycoin/skycoin">https://github.com/skycoin/skycoin</a>.</p>
-<p>Skycoin Explorer Github: <a href="https://github.com/skycoin/skycoin-explorer">https://github.com/skycoin/skycoin-explorer</a></p>
+<p>Skycoin Explorer Github: <a href="https://github.com/ness-network/skycoin-explorer">https://github.com/ness-network/skycoin-explorer</a></p>
 </p>
 </div>
 
