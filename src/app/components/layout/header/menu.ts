@@ -137,7 +137,7 @@ export default [
       },
       {
         name: 'Explorer API',
-        href: 'https://explorer.skycoin.net/api.html',
+        href: 'https://explorer.privateness.network/api.html',
         active: false,
         target: '_blank',
         open: false,

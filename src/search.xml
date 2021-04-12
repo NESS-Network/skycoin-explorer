@@ -6,7 +6,14 @@ https://developer.mozilla.org/en-US/docs/Web/OpenSearch#OpenSearch_description_f
   <ShortName>Privateness Explorer</ShortName>
   <Description>Search the Privateness blockchain</Description>
   <InputEncoding>UTF-8</InputEncoding>
+<<<<<<< HEAD
   <Image width="16" height="16" type="image/vnd.microsoft.icon">https://explorer.skycoin.net/favicon.ico</Image>
   <Url type="text/html" template="https://explorer.privateness.network/app/search/{searchTerms}" />
   <moz:SearchForm>https://explorer.privateness.network/</moz:SearchForm>
 </OpenSearchDescription>
+=======
+  <Image width="16" height="16" type="image/vnd.microsoft.icon">https://explorer.privateness.network/favicon.ico</Image>
+  <Url type="text/html" template="https://explorer.privateness.network/app/search/{searchTerms}" />
+  <moz:SearchForm>https://explorer.privateness.network/</moz:SearchForm>
+</OpenSearchDescription>
+>>>>>>> dbee4bf6a5cc5fac81fb3af96938c53603784f4e
