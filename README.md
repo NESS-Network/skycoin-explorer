@@ -38,7 +38,7 @@ You can check the state of blocks, transactions and more.
 
 The explorer is divided in 2 parts: the server and the frontend.
 
-The frontend is an Angular application that can be viewed in a web browser. When compiled, it is saved in the `/dist` fonder, inside the root of this repository.
+**The frontend is an Angular application that can be viewed in a web browser. When compiled, it is saved in the `/dist` folder, inside the root of this repository.**
 
 The server is a small program written in Go (Golang) which two functions: serve the contents of the `/dist` folder in [http://127.0.0.1:8001](http://127.0.0.1:8001) (making it is possible to open the frontend in a web browser) and provide an API for getting data from the blockchain. The API provided by the server is just a proxy that gets the data from a Skycoin node, so it needs a Skycoin node to be running to work.
 
