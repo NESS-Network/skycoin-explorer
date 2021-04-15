@@ -44,4 +44,4 @@ Thumbs.db
 /explorer.*
 !/explorer.go
 
-dist/
+#dist/
